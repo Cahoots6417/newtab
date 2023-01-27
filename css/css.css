@@ -250,11 +250,9 @@ progress {
 }
 [type=search] {
  outline-offset:-2px;
- -webkit-appearance:none
+ width: 150px
 }
-[type=search]::-webkit-search-decoration {
- -webkit-appearance:none
-}
+
 ::-webkit-file-upload-button {
  font:inherit;
  -webkit-appearance:button
