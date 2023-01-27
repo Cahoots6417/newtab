@@ -2349,8 +2349,8 @@ input[type=range] {
  touch-action:none;
  -webkit-tap-highlight-color:transparent;
 
-input[type=range],
-input[type=range]:active,
+input[type=range]:disa,
+input[type=range]:active
 input[type=range]:focus,
 input[type=range]:hover {
  outline:0
@@ -2535,7 +2535,7 @@ input[type=text] {
  border-radius:calc(var(--theme-radius) * .01em);
  cursor:text;
  transition:background-color var(--layout-transition-extra-fast),border-color var(--layout-transition-extra-fast),color var(--layout-transition-extra-fast),box-shadow var(--layout-transition-extra-fast);
- -moz-appearance:textfield
+ 
 }
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration,
@@ -2697,7 +2697,7 @@ textarea {
  resize:vertical;
  display:block;
  transition:background-color var(--layout-transition-extra-fast),border-color var(--layout-transition-extra-fast),color var(--layout-transition-extra-fast),box-shadow var(--layout-transition-extra-fast);
- -moz-appearance:textfield
+
 }
 textarea:hover {
  background-color:hsl(var(--form-input-background-hover));
