@@ -979,7 +979,7 @@ html.is-layout-scrollbar-none {
  width:100%;
  height:100%;
  fill:currentColor;
- vertical-align:middle;
+ 
  overflow:hidden;
  display:block
 }
