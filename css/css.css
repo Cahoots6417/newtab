@@ -2348,21 +2348,6 @@ input[type=range] {
  cursor:pointer;
  touch-action:none;
  -webkit-tap-highlight-color:transparent;
-
-input[type=range]:disa,
-input[type=range]:active
-input[type=range]:focus,
-input[type=range]:hover {
- outline:0
-}
-input[type=range]:disabled,
-input[type=range]:disabled:active,
-input[type=range]:disabled:focus,
-input[type=range]:disabled:hover {
- cursor:default
-}
-input[type=range]::-webkit-slider-runnable-track {
- background-color:hsl(var(--form-range-track-background));
  padding:0;
  margin:0;
  height:calc(var(--layout-line-width) * 3);
